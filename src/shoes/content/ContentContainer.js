@@ -214,6 +214,11 @@ const ContentContainer = () => {
             onClick={(event) => {
               setFilterColorValue(event.target.value);
             }}
+            className="col-4" 
+            value={"blue"}
+            onClick={(event) => {
+              setFilterColorValue(event.target.value);
+            }}
           ></ButtonColor>
         </Item>
       </Inputs>
