@@ -220,6 +220,18 @@ const ContentContainer = () => {
               setFilterColorValue(event.target.value);
             }}
           ></ButtonColor>
+          <ButtonColor
+          className="col-4" 
+            value={"gray"}
+            onClick={(event) => {
+              setFilterColorValue(event.target.value);
+            }}
+            className="col-4" 
+            value={"orange"}
+            onClick={(event) => {
+              setFilterColorValue(event.target.value);
+            }}
+          ></ButtonColor>
         </Item>
       </Inputs>
       {FilterSneakers()}
